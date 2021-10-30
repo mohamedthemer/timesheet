@@ -1,0 +1,31 @@
+2021-10-31 00:15:27.526  INFO 9992 --- [main] tn.esprit.spring.test.TimeSheetTest      : Starting TimeSheetTest on DESKTOP-FQIPF9U with PID 9992 (started by 21629 in C:\Users\21629\Desktop\ll)
+2021-10-31 00:15:27.536  INFO 9992 --- [main] tn.esprit.spring.test.TimeSheetTest      : No active profile set, falling back to default profiles: default
+2021-10-31 00:15:27.791  INFO 9992 --- [main] tn.esprit.spring.test.TimeSheetTest      : Started TimeSheetTest in 0.74 seconds (JVM running for 2.033)
+2021-10-31 00:16:00.587  INFO 7352 --- [main] SpringBootCoreDataJpaMvcRest1Application : Starting TimesheetSpringBootCoreDataJpaMvcRest1Application on DESKTOP-FQIPF9U with PID 7352 (C:\Users\21629\Desktop\ll\target\classes started by 21629 in C:\Users\21629\Desktop\ll)
+2021-10-31 00:16:00.727  INFO 7352 --- [main] SpringBootCoreDataJpaMvcRest1Application : No active profile set, falling back to default profiles: default
+2021-10-31 00:16:01.719  INFO 7352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-31 00:16:01.878  INFO 7352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148ms. Found 6 repository interfaces.
+2021-10-31 00:16:02.442  INFO 7352 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d1664e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-31 00:16:02.959  INFO 7352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-31 00:16:03.003  INFO 7352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-31 00:16:03.003  INFO 7352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-10-31 00:16:03.200  INFO 7352 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-10-31 00:16:03.200  INFO 7352 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2401 ms
+2021-10-31 00:16:03.552  INFO 7352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-31 00:16:03.771  INFO 7352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-31 00:16:03.841  INFO 7352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-31 00:16:03.941  INFO 7352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-10-31 00:16:03.946  INFO 7352 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-10-31 00:16:04.171  INFO 7352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-31 00:16:04.414  INFO 7352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-10-31 00:16:06.346  INFO 7352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-31 00:16:06.854  INFO 7352 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-10-31 00:16:07.796  INFO 7352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-31 00:16:07.865  WARN 7352 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-31 00:16:08.192  INFO 7352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2021-10-31 00:16:08.192  INFO 7352 --- [main] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 8.136 seconds (JVM running for 9.131)
+2021-10-31 00:16:18.562  INFO 7352 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-31 00:16:18.562  INFO 7352 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-31 00:16:18.578  INFO 7352 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
